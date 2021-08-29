@@ -5,6 +5,7 @@ export default class About extends Component {
     super(props);
     this.state = {};
   }
+  
 
   saveName(e) {
     localStorage["name"] = e.target.value;
