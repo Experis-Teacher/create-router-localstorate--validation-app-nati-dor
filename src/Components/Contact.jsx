@@ -36,6 +36,7 @@ export default class Contact extends Component {
         {this.state.isNotGood && <div>
             <p>Error, try:</p>
             <p>05x-xxx-xxxx</p>
+            
             </div>}
       </div>
     );
