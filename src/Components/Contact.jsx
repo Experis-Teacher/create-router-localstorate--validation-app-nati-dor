@@ -30,7 +30,7 @@ export default class Contact extends Component {
           type="text"
           placeholder="Enter your phone"
           className="phone"
-          onBlur={this.savePhone}
+          onInput={this.savePhone}
         />
         <button onClick={this.navigate}>navigate</button>
         {this.state.isNotGood && <div>
