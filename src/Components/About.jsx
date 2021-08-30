@@ -36,6 +36,7 @@ export default class About extends Component {
         />
         <button onClick={this.navigate}>navigate</button>
         {this.state.isNotGood && <div>
+            
             <p>Error, try:</p>
             <p>A large initial letter and a space between the first name and the last name</p>
             <p>Like: Avi Levi</p>
